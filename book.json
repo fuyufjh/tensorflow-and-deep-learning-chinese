@@ -1,3 +1,20 @@
 {
-    "plugins":["katex"]
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "Eric's Blog": "https://ericfu.me/"
+        }
+    },
+    "plugins":["katex", "disqus"],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "tensorflowdeeplearningch"
+        }
+    }
 }
